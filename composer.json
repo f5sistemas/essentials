@@ -1,0 +1,22 @@
+{
+	"name": "f5sistemas/essentials",
+	"description": "Essential classes and helpers",
+	"keywords": [
+		"controller",
+		"api"
+	],
+	"license": "MIT",
+	"authors": [
+	{
+		"name": "Daniel Bonatti",
+		"email": "daniel@f5sg.com.br"
+	}
+	],
+	"require": {
+		"php": ">=5.6.4",
+	},
+	"autoload": {
+	  "psr-0": {"F5\\Essentials": "src"}
+	},
+	"minimum-stability": "dev"
+}
