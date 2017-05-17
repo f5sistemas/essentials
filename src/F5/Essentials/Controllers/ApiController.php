@@ -197,4 +197,24 @@ class ApiController extends BaseController {
     }
 
 
+    /**
+     * return message of not authorized 
+     * @param type|null $user 
+     * @param type|string $returnType 
+     * @return JSON
+     */
+    public function respondWithNotAuthorized($message = 'Not authorized', $returnType = 'json') {
+
+        $this->setStatusCode(ResponseCodes::HTTP_UNAUTHORIZED);
+
+        return $this->respond([
+
+            'error' => $message,
+            'status_code' => $this->getStatusCode()
+
+        ], [], $returnType);
+        
+    }
+
+
 }
