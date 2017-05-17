@@ -1,6 +1,9 @@
 <?php
 
 
+namespace F5\Essentials\Curl;
+
+
 /**
  * @author Daniel Bonatti <daniel@f5sg.com.br>
  */
