@@ -5,7 +5,6 @@ namespace F5\Essentials\Controllers;
 
 
 use Response;
-use SoapBox\Formatter\Formatter;
 use Symfony\Component\HttpFoundation\Response as ResponseCodes;
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Bus\DispatchesJobs;
